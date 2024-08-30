@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    background-color: #ebecf0;
+}
+
+.center{
+    text-align: left;
+    margin: 30px 30px;
+}
+
+.center span{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.center p{
+    font-size: 1.1rem;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.my h5{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center .click{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: rgb(5, 5, 164);
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: .5s ease-in;
+}
+
+.center .click:hover{
+    background-color: rgb(46, 46, 164);
+}
